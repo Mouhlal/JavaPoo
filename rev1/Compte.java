@@ -15,8 +15,6 @@ public class Compte {
         this.password = compte.password;
     }
 
-    // Getters & setters si besoin
-
     @Override
     public String toString() {
         return "login=" + login + ", password=" + password;

@@ -5,11 +5,11 @@ public class Main {
         Client c = new Client(1, "Alice", "alice123", "pwd123", 30);
         c.afficher();
 
-        c.ajouterPointFidélités(20); // accent sur le e
+        c.ajouterPointFidélités(20); 
         c.afficher();
 
         try {
-            c.retirerPointFidélités(10); // accent sur le e
+            c.retirerPointFidélités(10); 
             c.afficher();
         } catch (PointsFidelitesException e) {
             System.err.println("Erreur : " + e.getMessage());

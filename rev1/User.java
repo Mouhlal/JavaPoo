@@ -1,5 +1,4 @@
 package rev1;
-
 public abstract class User {
     private int code;
     private String nom;
@@ -17,6 +16,6 @@ public abstract class User {
     }
     @Override
     public String toString() {
-        return "code=" + code + ", nom=" + nom + ", compte={" + compte + "}";
+        return "code=" + code + ", nom=" + nom + ", compte={" + compte.toString() + "}";
     }
 }
